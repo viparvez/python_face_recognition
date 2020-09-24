@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: abhilash
+@author: Parvez
 """
 #importing the required libraries
 import cv2
