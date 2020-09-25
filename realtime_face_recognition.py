@@ -20,9 +20,12 @@ trump_face_encodings = face_recognition.face_encodings(trump_image)[0]
 abhi_image = face_recognition.load_image_file('images/samples/parvez.jpg')
 abhi_face_encodings = face_recognition.face_encodings(abhi_image)[0]
 
+lewa_image = face_recognition.load_image_file('images/samples/lewa.jpg')
+lewa_face_encodings = face_recognition.face_encodings(lewa_image)[0]
+
 #save the encodings and the corresponding labels in seperate arrays in the same order
-known_face_encodings = [modi_face_encodings, trump_face_encodings, abhi_face_encodings]
-known_face_names = ["Narendra Modi", "Donald Trump", "Parvez"]
+known_face_encodings = [modi_face_encodings, trump_face_encodings, abhi_face_encodings, lewa_face_encodings]
+known_face_names = ["Narendra Modi", "Donald Trump", "Parvez", "Robert Lewandowski"]
 
 
 #initialize the array variable to hold all face locations, encodings and names 
